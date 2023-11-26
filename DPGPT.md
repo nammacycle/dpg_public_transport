@@ -75,7 +75,7 @@
 - Design a user-friendly interface accessible to people of all demographics.
 - Prioritize accessibility features for users with disabilities.
 
-## 9. Education and Training
+## 9. Education and Training - Culture Building
 
 ### Training Programs
 
@@ -95,5 +95,7 @@
 
 - Ensure the DPG complies with local and international regulations.
 - Collaborate with regulatory bodies to address legal and privacy concerns.
+
+
 
 This DPG design aims to create a comprehensive and adaptable platform that can be easily deployed and utilized by various cities to enhance their public transport systems.
