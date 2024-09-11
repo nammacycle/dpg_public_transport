@@ -1,21 +1,37 @@
 flowchart TD
+    %% Inputs Section
     subgraph Inputs
-        A1["Funding from Nirbhaya Scheme"]
-        A2["Land Allocation for Charging Stations"]
-        A3["Policy & Infrastructure Support"]
-        A4["Skilling Programs for Women Drivers"]
-        A5["EV Subsidies and Incentives"]
-        A6["Support from NAMMA YATRI Platform"]
+        A1["Funding"]
+        A2["Land Allocation"]
+        A3["Policy Support"]
+        A4["EV Infrastructure"]
+        A5["Driver Skilling Programs"]
+        A6["EV Autos"]
+        A7["Support from Nirbhaya Scheme"]
+        A8["NAMMA YATRI Platform Integration"]
     end
 
+    %% Outputs Section
     subgraph Outputs
-        B1["Trained Women Drivers"]
-        B2["Operational Charging Stations"]
-        B3["Electric Autos Deployed"]
-        B4["Safe Ride-sharing Environment"]
-        B5["Reduced Carbon Emissions"]
-        B6["Economic Empowerment of Women"]
+        B1["Operational Charging Stations"]
+        B2["Trained Women Auto Drivers"]
+        B3["Deployed Electric Autos"]
+        B4["Enhanced Public Transport Options"]
     end
 
-    Inputs --> Process["Setup of EV Women's Auto Program"]
+    %% Process Block
+    Process["Setup of Mahila Shakti Auto Program"]
+
+    %% Impact Block
+    subgraph Impact
+        I1["Increased Women Employment"]
+        I2["Safe Rides for Women"]
+        I3["Reduced Emissions"]
+        I4["Economic Empowerment of Women"]
+        I5["Improved Urban Mobility"]
+    end
+
+    %% Connections
+    Inputs --> Process
     Process --> Outputs
+    Outputs --> Impact
