@@ -1,0 +1,11 @@
+flowchart TD
+    A["Karnataka Government - Nirbhaya Scheme"] -- Funding, Policy & Skilling Support --> B["Nirbhaya Scheme"]
+    A -- Policy & Infrastructure Enablement --> C["EV Infrastructure & Skilling Support"]
+    C -- Infrastructure Development --> D["EXPO"]
+    C -- EV Tax Subsidy --> G["MONTRA"]
+    C -- Support for Charging  --> N["Land Allocation"]
+    D -- Build Fast Charging at Critical Locs --> N["Land Allocation"]
+    B -- Funding & Subsidies --> I["Karnataka Women Development Corporation"]
+    K["NAMMA YATRI"] -- Driver Onboarding --> L["Ride-sharing Platform"]
+    L -- Train & Onboard --> M["  Women Auto Drivers "]   
+    G -- Deploy Electric Autos --> M[" Women Auto Drivers"]
